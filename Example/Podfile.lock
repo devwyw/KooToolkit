@@ -1,0 +1,119 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.3)
+  - DateTools (2.0.0)
+  - FBRetainCycleDetector (0.1.4)
+  - FLEX (2.4.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - JMTabBarController (0.4)
+  - JQFMDB (1.1.6):
+    - FMDB
+  - KooToolkit (0.1.0):
+    - CocoaAsyncSocket
+    - DateTools
+    - FLEX
+    - JMTabBarController
+    - JQFMDB
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - MLeaksFinder
+    - ReactiveObjC
+    - SDWebImage
+    - SVProgressHUD
+    - TXFileOperation
+    - UIAlertView-Blocks
+    - WMPageController
+    - YTKNetwork
+    - YYKit
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - ReactiveObjC (3.1.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SVProgressHUD (2.2.5)
+  - TXFileOperation (1.0)
+  - UIAlertView-Blocks (1.0)
+  - WMPageController (2.5.2)
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - KooToolkit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - DateTools
+    - FBRetainCycleDetector
+    - FLEX
+    - FMDB
+    - JMTabBarController
+    - JQFMDB
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - MLeaksFinder
+    - ReactiveObjC
+    - SDWebImage
+    - SVProgressHUD
+    - TXFileOperation
+    - UIAlertView-Blocks
+    - WMPageController
+    - YTKNetwork
+    - YYKit
+
+EXTERNAL SOURCES:
+  KooToolkit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  JMTabBarController: de4d832b0da73066b78a7d478e1b40bb84886412
+  JQFMDB: 39ab0d6d7c26fd30e51c4dd92edcb27506a34c3a
+  KooToolkit: e05eeb9d901beb6df475c11a7634ac54068ff589
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TXFileOperation: 99bc7e3763678fdea8e8c407e2b87fb18038385f
+  UIAlertView-Blocks: 7904744fca618afbd2ec646608924f5e69d5acd1
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 74f056a44ec94d0e32e4a985563f304fc996de7c
+
+COCOAPODS: 1.6.0.beta.2

@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'KooToolkit_Example' do
+  pod 'KooToolkit', :path => '../'
+
+  target 'KooToolkit_Tests' do
+    inherit! :search_paths
+
+  end
+end
