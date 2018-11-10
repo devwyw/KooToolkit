@@ -7,14 +7,50 @@
 //
 
 #import "KooAppDelegate.h"
+#import "JMTabBarController.h"
+#import "JMConfig.h"
+#import "ViewController.h"
 
 @implementation KooAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    //初始化标题数组, 未选择图片数组, 选择图片数组, 控制器数组
+    NSMutableArray *titleArr = [NSMutableArray arrayWithObjects:@"首页",@"热点",@"喜欢",@"我的", nil];
+    NSMutableArray *imageNormalArr = [NSMutableArray arrayWithObjects:@"tab1_nor",@"tab2_nor",@"tab3_nor",@"tab4_nor", nil];
+    NSMutableArray *imageSelectedArr = [NSMutableArray arrayWithObjects:@"tab1_sel",@"tab2_sel",@"tab3_sel",@"tab4_sel", nil];
+    NSMutableArray *controllersArr = [NSMutableArray array];
+    for (int i = 0; i < titleArr.count; i++)
+    {
+        if (i == 0)
+        {
+            ViewController *vc = [[ViewController alloc] init];
+            UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+            [controllersArr addObject:nav];
+        }
+        else
+        {
+            UIViewController *vc = [[UIViewController alloc] init];
+            vc.view.backgroundColor = kRandomColor;
+            UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+            [controllersArr addObject:nav];
+        }
+    }
+    
+    //初始化配置信息
+    JMConfig *config = [JMConfig config];
+    
+    JMTabBarController *tabBarVc = [[JMTabBarController alloc] initWithTabBarControllers:controllersArr NorImageArr:imageNormalArr SelImageArr:imageSelectedArr TitleArr:titleArr Config:config];
+    self.window.rootViewController = tabBarVc;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

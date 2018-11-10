@@ -21,6 +21,13 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		852A055E21968F0F00591770 /* JMTabBar1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 852A055521968F0E00591770 /* JMTabBar1.gif */; };
+		852A055F21968F0F00591770 /* JMTabBar3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 852A055621968F0E00591770 /* JMTabBar3.gif */; };
+		852A056021968F0F00591770 /* JMTabBar2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 852A055721968F0E00591770 /* JMTabBar2.gif */; };
+		852A056121968F0F00591770 /* JMTabBar5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 852A055821968F0E00591770 /* JMTabBar5.gif */; };
+		852A056221968F0F00591770 /* JMTabBar4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 852A055921968F0E00591770 /* JMTabBar4.gif */; };
+		852A056321968F0F00591770 /* JMNavTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852A055B21968F0F00591770 /* JMNavTestController.m */; };
+		852A056421968F0F00591770 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852A055C21968F0F00591770 /* ViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		F1493340944B94D9B0315080 /* Pods_KooToolkit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B923745D4CE628F5F8A58E0 /* Pods_KooToolkit_Tests.framework */; };
 		FE822A3A89990E53426ED51C /* Pods_KooToolkit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2110D1B00F70D665146161 /* Pods_KooToolkit_Example.framework */; };
@@ -62,6 +69,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		852A055521968F0E00591770 /* JMTabBar1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JMTabBar1.gif; sourceTree = "<group>"; };
+		852A055621968F0E00591770 /* JMTabBar3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JMTabBar3.gif; sourceTree = "<group>"; };
+		852A055721968F0E00591770 /* JMTabBar2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JMTabBar2.gif; sourceTree = "<group>"; };
+		852A055821968F0E00591770 /* JMTabBar5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JMTabBar5.gif; sourceTree = "<group>"; };
+		852A055921968F0E00591770 /* JMTabBar4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JMTabBar4.gif; sourceTree = "<group>"; };
+		852A055A21968F0F00591770 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		852A055B21968F0F00591770 /* JMNavTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMNavTestController.m; sourceTree = "<group>"; };
+		852A055C21968F0F00591770 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		852A055D21968F0F00591770 /* JMNavTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMNavTestController.h; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B2110D1B00F70D665146161 /* Pods_KooToolkit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KooToolkit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D8CDF179418B44C6289744 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -137,6 +153,11 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* KooViewController.h */,
 				6003F5A6195388D20070C39A /* KooViewController.m */,
+				852A055421968F0E00591770 /* gif */,
+				852A055D21968F0F00591770 /* JMNavTestController.h */,
+				852A055B21968F0F00591770 /* JMNavTestController.m */,
+				852A055A21968F0F00591770 /* ViewController.h */,
+				852A055C21968F0F00591770 /* ViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -183,6 +204,18 @@
 				97D8CDF179418B44C6289744 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		852A055421968F0E00591770 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				852A055521968F0E00591770 /* JMTabBar1.gif */,
+				852A055621968F0E00591770 /* JMTabBar3.gif */,
+				852A055721968F0E00591770 /* JMTabBar2.gif */,
+				852A055821968F0E00591770 /* JMTabBar5.gif */,
+				852A055921968F0E00591770 /* JMTabBar4.gif */,
+			);
+			path = gif;
 			sourceTree = "<group>";
 		};
 		AD4D68F417FC35F279011E89 /* Pods */ = {
@@ -280,9 +313,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852A056021968F0F00591770 /* JMTabBar2.gif in Resources */,
+				852A056121968F0F00591770 /* JMTabBar5.gif in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				852A055F21968F0F00591770 /* JMTabBar3.gif in Resources */,
+				852A056221968F0F00591770 /* JMTabBar4.gif in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				852A055E21968F0F00591770 /* JMTabBar1.gif in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,9 +483,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852A056321968F0F00591770 /* JMNavTestController.m in Sources */,
 				6003F59E195388D20070C39A /* KooAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* KooViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				852A056421968F0F00591770 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
