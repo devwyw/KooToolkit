@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KooToolkit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'KooToolkit.'
 
 # This description is used to generate tags and improve search results.
@@ -54,6 +54,7 @@ TODO: Add long description of the pod here.
   s.dependency 'YYKit'
   s.dependency 'WMPageController'
   s.dependency 'JMTabBarController'
+  s.dependency 'UITableView+FDTemplateLayoutCell'
   #----------RAC相关库-----------
   s.dependency 'ReactiveObjC'
   #----------第三方数据相关库-----------
